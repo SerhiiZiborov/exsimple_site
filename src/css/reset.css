@@ -1,35 +1,32 @@
-/* Reset styles */
+:root {
+  --main-text-color: #ffffff;
+  --secondary-text-color: #333333;
+  --accent-text-color: #28a745;
+}
+
+body {
+  background-color: var(--main-text-color);
+  color: var(--main-text-color);
+  font-family: Open Sans;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+p,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-p {
+h6 {
   margin: 0;
-}
-
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-a {
-  color: currentColor;
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
